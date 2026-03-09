@@ -1,0 +1,76 @@
+:root {
+    --main-color: #e74c3c
+}
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 75px;
+    width: 100vw;
+    background-color: rgb(27, 27, 27);
+    align-self: start;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: calc(100% - 50px);
+    width: calc(100% - 50px);
+    background-color: #FFFFFF;
+    border-radius: 5px;
+
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE/Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    
+    overflow-y: scroll;
+}
+
+main::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+div#big {
+    display: flex;
+    background-color: var(--main-color);
+    display: flex;
+    height: calc(100vh - 75px);
+    width: 100vw;
+    position: absolute;
+    top: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+div#quicklinks {
+    display: flex;
+    height: 400px;
+    padding: 45px;
+    justify-content: space-between;
+}
+
+input#search {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    outline-width: 0;
+    width: 500px;
+    height: 40px;
+}
+
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.quicklink {
+    height: 100%;
+    border-radius: 10px;
+}
