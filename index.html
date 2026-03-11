@@ -4,97 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleSavvy</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Style Savvy</title>
 </head>
 
 <body>
     <header>
-        <div id="upper">
-            <a href="index.html">
-                <h1>Style Savvy</h1>
-            </a>
-        </div>
-        <div id="lower">
-            <span class="navbar-text"><a href="pages/news.html">News</a></span>
-            <span class="navbar-text"><a href="pages/blog.html">Collage</a></span>
-            <span class="navbar-text"><a href="pages/guide.html">Guide</a></span>
-        </div>
+        <input type="search" id="header-search" placeholder="Search...">
     </header>
 
-    <main id="index">
-        <div id="Index-news" class="index-cards">
-            <h2>NEWS</h2>
-            <div class="subcards">
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
-                </div>
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
-                </div>
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
-                </div>
-            </div>
-        </div>
+    <div id="logo">
+        <a href="index.html" id="logo-link">
+            <h1 id="logo-text">StyleSavvy</h1>
+        </a>
+    </div>
+    <nav>
+        <a href="index.html" class="nav-names">HOME</a>
+        <p>|</p>
+        <a href="about-us.html" class="nav-names">ABOUT US</a>
+        <p>|</p>
+        <a href="" class="nav-names">FEATURES</a>
+    </nav>
 
-        <div id="Index-blog" class="index-cards">
-            <h2>BLOG</h2>
-            <div class="subcards">
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
-                </div>
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
-                </div>
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
-                </div>
-            </div>
+    <div id="section-1">
+        <div id="image">
+            <p id="image-date">Nov 26, 2025 - Fashion</p>
+            <h2 id="image-heading">Best clothes for your summer</h2>
+            <button class="image-button" onclick="location.href = 'article.html'">READ MORE</button>
         </div>
+    </div>
 
-        <div id="Index-guide" class="index-cards">
-            <h2>GUIDE</h2>
-            <div class="subcards">
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
+    <div id="section-2">
+
+        <a href="" id="first-item">
+            <div id="scroll-list-item-left" class="scroll-list-item">
+                <div class="scroll-list-item-header-background">
+                    <h3 class="scroll-list-item-header">Fashion</h3>
                 </div>
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
+                <h4 class="scroll-list-item-subheader"> Top 8 Must See Galas</h4>
+            </div>
+        </a>
+
+        <a href="" id="second-item">
+            <div id="scroll-list-item-middle" class="scroll-list-item">
+                <div class="scroll-list-item-header-background">
+                    <h3 class="scroll-list-item-header">Fashion</h3>
                 </div>
-                <div class="index-subcards">
-                    <h3>Foo bar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi inventore dolorum, nisi
-                        ad ea delectus autem repudiandae blanditiis odio quisquam repellendus architecto vero dolor
-                        nihil fuga perspiciatis quam soluta?</p>
+                <h4 class="scroll-list-item-subheader"> Temporary Tatoos </h4>
+            </div>
+        </a>
+
+        <a href="" id="third-item">
+            <div id="scroll-list-item-right" class="scroll-list-item">
+                <div class="scroll-list-item-header-background">
+                    <h3 class="scroll-list-item-header">Fashion</h3>
+                </div>
+                <h4 class="scroll-list-item-subheader"> Fashion of Summer </h4>
+            </div>
+        </a>
+
+    </div>
+
+    <div id="section-3">
+        <img src="img/fashion2.jpg" alt="" id="section-3-image">
+        <aside id="content">
+
+            <div id="banner-1">RECENT POSTS</div>
+            <div id="posts">
+                <div class="post">
+                    <img class="post-img" src="img/article1.jpg" alt="">
+                    <h4 class="post-p">Stay Cool, Look Sharp: Your Ultimate Guide to Summer Style</h4>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="img/article2.jpg" alt="">
+                    <h4 class="post-p">Heatwave Ready: The Essential Clothing Picks for a Stylish Summer</h4>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="img/article3.jpg" alt="">
+                    <h4 class="post-p">Light, Breezy, Effortless: Fashion Staples You Need This Summer</h4>
                 </div>
             </div>
+
+            <div id="banner-2">AUTHOR</div>
+            <div id="about-us">
+                <img id="profile" src="img/profile.png" alt="">
+                <h3 id="name">Alex Moreno</h3>
+                <p id="profile-description">Alex Moreno is a fashion writer passionate about style that’s both
+                    comfortable and chic. He shares practical tips to help readers look great every season.</p>
+            </div>
+
+        </aside>
+        <div id="description">
+            <h3 id="categories">FASHION, LIFESTYLE</h3>
+
+            <h2 id="description-name"><a href="article.html">Best Clothes for your Summer</a></h2>
+            <p id="description">The best summer clothes focus on comfort, breathability, and style. Lightweight fabrics
+                like cotton and linen help keep you cool, while relaxed fits improve airflow. Well-chosen shorts,
+                dresses, skirts, or breathable pants offer versatility for different occasions. Comfortable footwear,
+                light layers for cooler moments, and simple, functional accessories complete the look. By choosing
+                natural materials and keeping outfits minimal, you stay cool, confident, and stylish all summer long.
+            </p>
+
+            <a href="article.html">
+                <button class="image-button" onclick="location.href = 'article.html'">READ MORE</button>
+            </a>
         </div>
-    </main>
+    </div>
+
+    <footer></footer>
+
 </body>
 
 </html>
